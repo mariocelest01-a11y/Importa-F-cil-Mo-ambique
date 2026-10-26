@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: oklch(99% 0.004 250);
+  --color-foreground: oklch(24% 0.06 260);
+  --color-card: oklch(100% 0 0);
+  --color-card-foreground: oklch(24% 0.06 260);
+  --color-popover: oklch(100% 0 0);
+  --color-popover-foreground: oklch(24% 0.06 260);
+  --color-primary: oklch(27% 0.07 260);
+  --color-primary-foreground: oklch(98% 0.005 250);
+  --color-secondary: oklch(94.5% 0.02 255);
+  --color-secondary-foreground: oklch(27% 0.07 260);
+  --color-muted: oklch(95.5% 0.012 255);
+  --color-muted-foreground: oklch(50% 0.04 257);
+  --color-accent: oklch(63% 0.14 155);
+  --color-accent-foreground: oklch(99% 0.005 155);
+  --color-destructive: oklch(57.7% 0.245 27.325);
+  --color-destructive-foreground: oklch(98.4% 0.003 247.858);
+  --color-border: oklch(91.5% 0.015 255);
+  --color-input: oklch(91.5% 0.015 255);
+  --color-ring: oklch(63% 0.14 155);
+  --color-deep: oklch(21% 0.065 262);
+  --color-deep-foreground: oklch(98% 0.005 250);
+  --color-deep-muted: oklch(93% 0.02 255);
+  --color-cta: oklch(80% 0.155 80);
+  --color-cta-foreground: oklch(22% 0.055 262);
+
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  --radius: 0.75rem;
+  --background: oklch(99% 0.004 250);
+  --foreground: oklch(24% 0.06 260);
+  --card: oklch(100% 0 0);
+  --card-foreground: oklch(24% 0.06 260);
+  --popover: oklch(100% 0 0);
+  --popover-foreground: oklch(24% 0.06 260);
+  --primary: oklch(27% 0.07 260);
+  --primary-foreground: oklch(98% 0.005 250);
+  --secondary: oklch(94.5% 0.02 255);
+  --secondary-foreground: oklch(27% 0.07 260);
+  --muted: oklch(95.5% 0.012 255);
+  --muted-foreground: oklch(50% 0.04 257);
+  --accent: oklch(63% 0.14 155);
+  --accent-foreground: oklch(99% 0.005 155);
+  --destructive: oklch(57.7% 0.245 27.325);
+  --destructive-foreground: oklch(98.4% 0.003 247.858);
+  --border: oklch(91.5% 0.015 255);
+  --input: oklch(91.5% 0.015 255);
+  --ring: oklch(63% 0.14 155);
+  --deep: oklch(21% 0.065 262);
+  --deep-foreground: oklch(98% 0.005 250);
+  --deep-muted: oklch(93% 0.02 255);
+  --cta: oklch(80% 0.155 80);
+  --cta-foreground: oklch(22% 0.055 262);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.section-title {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+  font-weight: 700;
+  line-height: 1.15;
+}
