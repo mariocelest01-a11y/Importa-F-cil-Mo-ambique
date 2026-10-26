@@ -933,7 +933,7 @@ export default function App() {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={trackCheckout}
-                className="w-full inline-flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer transition-all duration-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-cta text-cta-foreground font-bold shadow-lg hover:bg-cta/90 hover:scale-[1.01] h-14 rounded-xl px-8 text-base sm:text-lg text-center"
+                className="w-full inline-flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold shadow-lg shadow-emerald-900/25 hover:shadow-xl hover:scale-[1.01] active:scale-[0.99] h-14 rounded-xl px-8 text-base sm:text-lg text-center tracking-wide"
               >
                 QUERO APRENDER A IMPORTAR
               </a>
@@ -1180,7 +1180,7 @@ export default function App() {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={trackCheckout}
-                className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-cta py-3.5 text-sm font-bold text-cta-foreground shadow-md hover:bg-cta/90 transition-colors"
+                className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 py-3.5 text-sm font-bold text-white shadow-md hover:shadow-lg transition-all"
               >
                 Pagar Online Agora (447 MT)
               </a>
